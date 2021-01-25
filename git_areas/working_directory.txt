@@ -8,6 +8,8 @@ WORKING DIRECTORY: (Directorio de trabajo)
 	trabajar con el contenido.
 
 COMANDOS:
+	
+	ls/dir	=> listan el contenido de un directorio
 
 	cd se utiliza para navegar entre las carpetas
 	cd <folder>	=> abre el directorio especificado
@@ -21,4 +23,6 @@ COMANDOS:
 GIT
 	git init	=> inicializa un repositorio de git
 	git status	=> compara el directorio de trabajo con el index
-	
+	git config --list => imprime en pantalla la configuracion de git
+	git congig --get-regexp <word> => busca en la configuracion la palabra indicada
+	rm -rf .git => elimina el repositorio (no afecta a los archivos y carpetas)
