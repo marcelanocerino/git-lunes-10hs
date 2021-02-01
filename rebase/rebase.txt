@@ -6,3 +6,10 @@ REBASE
 	NOTA: No debemos aplicar este comando si los cambios ya fueron
 	subidos a nuestro repositorio remoto, ya que altera el historial
 	de commits implicados.
+
+GIT
+	git rebase => reorganiza los commits pertenecientes a la rama (que no afecten a otras)
+	git rebase <branch> => reorganiza los commits de ambas ramas cronologicamente
+	git rebase <commit> => reorganiza el historial a partir del commit indicado
+	
+	git rebase -i <param> => abre el editor para indicar como aplicar los commits (editar historial)
