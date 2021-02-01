@@ -20,3 +20,9 @@ GIT
 	git branch -D <branch> => elimina la rama, sin importar que los cambios esten integrados
 	
 	git push -D <url> <branch> => elimina la rama del repositorio remoto
+
+MERGE
+	git merge <branch>	=> integra los cambios de la rama especificada en un nuevo commit
+	git merge --abort	=> cancela la fusion de cambios, y reestablece el WORKING DIRECTORY
+	git merge --continue	=> continua con la fusion tras haber resuelto algun Conflicto
+
