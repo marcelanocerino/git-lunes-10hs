@@ -15,3 +15,8 @@ GIT
 	
 	git branch <name> => crea una rama con el nombre especificado
 	git checkout -b   => crea una rama y nos dirige a ella
+
+	git branch -d <branch> => elimina la rama, solo si los cambios estan integrados en otro commit
+	git branch -D <branch> => elimina la rama, sin importar que los cambios esten integrados
+	
+	git push -D <url> <branch> => elimina la rama del repositorio remoto
