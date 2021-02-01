@@ -1,0 +1,8 @@
+REBASE
+	Herramienta que perite reorganizar los commits de una rama,
+	integrar los commits de 2 ramas de manera organizada, o
+	reaplicar los commits en una rama desde el commit especificado.
+	
+	NOTA: No debemos aplicar este comando si los cambios ya fueron
+	subidos a nuestro repositorio remoto, ya que altera el historial
+	de commits implicados.
