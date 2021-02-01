@@ -1,17 +1,11 @@
-REMOTE (Repositorio Remoto)
-	Direccion donde podemos subir o descargar
-	modificaciones con respecto a nuestro
-	repositorio. Se utiliza como punto de 
-	referencia, asi como tambien para la copia
-	del contenido de nuestro repositorio.
 
-SITIOS
-	https://github.com
-	https://gitlab.com
-	https://bitbucket.org
+FETCH => trae el historial de cambios al repositorio pero NO MODIFICA el WORKING DIRECTORY
+	 (Solamente Actualiza la carpeta .git)
 
-GIT
-	git remote => lista los remotos cargados en el repositorio
-	git remote add <alias> <url> => carga un remoto
-	git remote remove <alias> => remueve el remoto de la lista
-	git remote rename <old> <new> => cambia el nombre del remoto
+PULL  => trae el historial de cambios y combina los mismos con nuestro WORKING DIRECTORY generando un nuevo Commit
+	 (Realiza un FETCH + MERGE)
+
+PUSH  => envia el historial de cambios y los archivos al REPOSITORIO REMOTO
+	 (Permite crear/eliminar ramas de los remotos)
+
+
